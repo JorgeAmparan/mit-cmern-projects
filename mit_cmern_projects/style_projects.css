@@ -1,0 +1,121 @@
+body {
+    font-family: Neoteric;
+    font-size: 26px;
+    background-color: #f1f3f9;
+    color: #0c0664;
+}
+
+h1{
+    color: black;
+    font-size: small;
+    position: center;
+}
+
+.videhome
+{
+    position: absolute;
+    
+}
+
+.hero {
+    padding: 50px 100px 50px 100px;
+    background-color: #f1f3f9;
+    height: auto;
+    width: auto;
+}
+
+.hero h1 {
+    text-align: center;
+    color: black;
+    font-family: Neoteric;
+    font-size: 62px;
+    font-weight: 600;
+}
+.hero p{
+ padding: 62px 0px 0px 62px;
+ color: #0c0664;
+ font-family: Helvetica;
+ font-size: 18px;
+}
+
+@font-face {
+    font-family: FlowerBetter;
+    src: url(FlowerBetter-L3p03.otf);
+}
+
+@font-face {
+    font-family: Neoteric;
+    src: url(NeotericBold-xq1q.ttf);
+}
+
+@font-face {
+    font-family: PacMan;
+    src: url(PacfontGood-yYye.ttf);
+}
+
+.Pacman_t {
+    padding: 20px 100px;
+    text-align: justify;
+    color: #0c0664;
+    font-family: PacMan;
+    src: url(PacfontGood-yYye.ttf);
+    font-size: 30px;
+
+}
+
+.box {
+    display: inline-flex;
+    margin: 0px 100px;
+    padding: 30px;
+    background-color: #fff;
+    font-size: medium;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Helvetica;
+}
+
+.box_interior {
+    display: table-column-group;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    color: #0c0664;
+}
+
+.Project_p {
+    max-inline-size: 80%;
+}
+
+.gamer {
+    flex: auto;
+    width: 600px;
+    height: 600px;
+
+}
+
+.pacmen_box {
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0c0664;
+    margin: 100px;
+    width: 600px;
+    height: 600px;
+}
+.arena {
+    border-color: brown;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+.project_title {
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 30px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
